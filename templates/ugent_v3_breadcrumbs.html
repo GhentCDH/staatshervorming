@@ -1,0 +1,10 @@
+{arrayLength(breadcrumbs.items)}
+<ol id="breadcrumbs" class="breadcrumb" flexy:if="!isEmpty(lastReturn)">
+    {foreach:breadcrumbs.items,index,breadcrumb}
+    {if:!arrayIsLastKey(breadcrumbs.items,index)}
+    <li><a href="{breadcrumb.link}">{breadcrumb.title:h}</a></li>
+    {else:}
+    <li class = "active">{breadcrumb.title:h}</li>
+    {end:}
+    {end:}
+</ol>

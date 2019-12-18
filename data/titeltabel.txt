@@ -1,0 +1,346 @@
+"ID";"Titel";"naamid"
+1;"heer van Kaprijke en Genech (7568)";3
+2;"messire, chevalier";39
+3;"messire, ridder, raadsheer, kamerling v1422 (454)";108
+4;;168
+5;"messire, chevalier, conseillier, chambellan";66
+6;;62
+7;"heer van Moerkerke en van der Merwede";72
+8;"maistre 1405 (3090)";138
+9;"maistre v24/6/1418 (1126), nog niet in 1417 (1123)";134
+10;"maistre v1422 (3012)";103
+11;"conseillier";20
+12;;57
+13;;165
+14;"maistre";71
+15;;152
+16;"maistre v1418 (3293)";29
+17;"in 1450 nog geen maistre genoemd (224)";16
+18;"maistre v1412 (1253)";135
+19;"heer van Dentergem (2810)";126
+20;"maistre v1401 (6140)";93
+21;"conseillier v1431";130
+22;"seigneur d'Ars v1432 [=?]";150
+23;"maistre v1421-22 (437)";35
+24;;127
+25;"schildknaap v. 1440-41";49
+26;"messire, ridder v1456 (1719) [daarvoor niet? (1701";14
+27;"maistre v1433 (546)";119
+28;"messire v.1440-41";38
+29;"ridder v1436 (3359)";38
+30;"maistre v1440 (1590)";88
+31;"schildknaap v1427 (8051)";115
+32;"maistre v1445 (739)";116
+33;"docteur en loix et en decret v1449 (1648)";31
+34;"maistre v1450 (784), nog niet in 1448 (773)";156
+35;"maistre v1452 (8032)";157
+36;"maistre v1438 (639)";170
+37;"maistre v1448 (777)";150
+38;"ridder v1443 (6030)";107
+39;"meester v1425 (3490) [=? vader?]";89
+40;"maistre v1451 (804)";154
+41;"licencié en loix v1448 (777)";150
+42;"seigneur de Dixmude et de Balinghuem v1463 (2900)";27
+43;"maistre, docteur en droit civil v1449 (1647)";113
+44;"docteur en lois (289)";113
+45;"meester v1461-62 (879)";7
+46;"maistre (323)";139
+47;"maistre v1446 (2196)";73
+48;"ridder v1468 (335)";63
+49;"heer van Staden v1468 (335)";63
+50;"licentiatus in decretis v1416 (4568)";24
+51;"maistre v1457 (851)";55
+52;"maistre v1444 (3571)";163
+53;"maistre";118
+54;"maistre v1455 (6048)";111
+55;"maistre v1487 (392)";21
+56;"messire v1487 (394), ridder";6
+57;"docteur en loix et decret v1487 (394)";6
+58;"messire, chevalier v1475 (403)";68
+59;"maistre v1468 (3193)";167
+60;"maistre v1475 (408)";99
+61;;46
+62;"meester v1398 (5382) in 1393 nog niet (3384)";57
+63;"maistre v1416 (1185)";162
+64;"heer van Scoudee en Baasrode v1419 (1448)";66
+65;"maistre v1417 (1194)";166
+66;"ridder, raadsheer en kamerling v1424 (475)";72
+67;"raadsheer en kamerling v1420 (6205)";159
+68;"viconte de Condé, v1421-22 (3638) v1419 (6139)";29
+69;"maistre v1431 (522), v1443 (201)";153
+70;"maistre v1432 (530)";36
+71;"maistre v1433 (548)";142
+72;"maistre v1419 (1031)";168
+73;"maistre v1433 (554)";164
+74;;147
+75;"ridder v1435 (585)";159
+76;"seigneur du Meisnil v1435 (585)";159
+77;"meester v1422 (8077)";123
+78;"maistre v1436 (601)";131
+79;"maistre v1437 (622)";130
+80;"meester v1428 (1983)";79
+81;"meester v1438 (634)";17
+82;"maistre v1430 (1593)";30
+83;"maistre, docteur en lois v1425 (1561)";121
+84;"maistre v1440 (676)";1
+85;"maistre v1440 (677)";37
+86;"maistre v1424-25 (7956) [maar soms ook niet]";125
+87;"maistre v1443 (719)";33
+88;"docteur en loys v1450 (787)";4
+89;"maistre v1447 (3610)";4
+90;"maistre v1446 (6033)";22
+91;"maistre v1460-61 (874)";141
+92;"in 1461-62 maistre (878)";16
+93;"maistre v1462-63 (891) en een andere keer zonder";65
+94;"deze aanduiding in hetzelfde jaar (892)";65
+95;"maistre v1462-63 (893)";144
+96;"messire v1463-64 (896)";107
+97;"maistre v1463-64 (897)";155
+98;"messire, ridder v1464-65 (899)";59
+99;"messire, chevalier v 1465-66 (915)";113
+100;"""president de Flandres"" v1466-67 (916)";22
+101;"maistre v1460 (8083)";15
+102;"raadsheer, kamerling v1467 (928)";63
+103;"maistre v1468 (944)";175
+104;"maistre v1475 (977)";42
+105;"meester v1460 (2380)";94
+106;"messire v1477 (993)";154
+107;"heer van Berlettes v1473 (1439) (1885)";154
+108;"maistre v1467 (3661)";122
+109;"meester v1468 (6062)";41
+110;;158
+111;"maistre v1479 (1017)";179
+112;"maistre v1479 (1018)";84
+113;"seigneur de Montigny,  v1474 (3586)";59
+114;"ridder, raadsheer, kamerling v14774 (3586)";59
+115;"chambellan, conseillier v1481 (1039)";154
+116;"dit l'Abbé (2796)";88
+117;"maistre v1441 (1202)";124
+118;"magister artium et doctor legum (1251)";1
+119;"heer van Genets v1411 (1281)";3
+120;"raadsheer en kamerling v1454 (1351)";27
+121;"heer van Boisgrenier v1469 (1362)";142
+122;"seigneur de Bruay v1431 (1393)";149
+123;"seigneur de Quesnoy-sur-Deule v1431 (1396)";149
+124;"rider, raadsheer en kamerling";62
+125;;153
+126;"ridder v1473 (1885)";154
+127;"ridder v1399 (1444)";72
+128;"licencié es lois v1450 (1453)";78
+129;"heer van Magny sur Tille, Courcelles, La Roche,";84
+130;"schildknaap v1438 (1478),";97
+131;"nog niet in 1431 (1477)";97
+132;"maistre v1406 (7593)";180
+133;"maistre es arts et docteur es loix v1423 (3233)";180
+134;;180
+135;"ridder v1435 (4267)";76
+136;"maistre v1418 (1149)";60
+137;;29
+138;"maistre v1422 (1558)";24
+139;"heer van Eke en Hundelgem v1432 (1569)";76
+140;"ridder en kamerling";76
+141;"docteur en lois v1440  (1595)";1
+142;;114
+143;"maistre, docteur en droit civil v1449 (1647)";113
+144;"maistre v1443 (6028)";2
+145;"heer van Beveren en Oeselgem v1443 (1656)";38
+146;"docteur en decret et bacheler en loix v1451 (1706)";100
+147;"schildknaap v1456 (1726)";27
+148;"heer van Balinghem v1456 (1726)";27
+149;"licencié es loix v1456 (1729)";26
+150;"maistre, licencié es loix v1456 (1730)";81
+151;;172
+152;"chevalier v1434 (562) [=?]";14
+153;"licencié en loi et en decret v1475 (1767)";184
+154;"heer van Halinnes v1460 (1770)";23
+155;"ridder v1460 (1770)";23
+156;"maistre v1450 (1817)";128
+157;"heer van Pérenchies v1469 (1860)";113
+158;"messire, chevalier v1465 (915) [nog niet als heer]";113
+159;"laatse keer geen ridder v1462 (1809)";113
+160;"meester v1428 (1997)";85
+161;"seigneur de Dicquemue v1429 (2009) (6118)";3
+162;"ridder en heer van Volandere v1451 (7111)";45
+163;;18
+164;"heer van La Verre (3287)";22
+165;"maistre v1464 (7429) [fout van Van Rompaey]";28
+166;"heer van Voormezele s.d. (2493)";55
+167;"titel van raadsheer vanaf 1414 (2495)";57
+168;"meester v1464 (7132)";56
+169;"Tart, Marliens, Berlaar etc. (2516)";84
+170;"heer van Gestel v1504 (2511)";84
+171;"heer van Mosser-ambacht[?]in Kortrijk-buiten(2517)";86
+172;"heer van Moorslede vanaf 1467 (2517)";86
+173;"licencié es lois v1460 (2525)";99
+174;"heere up Asselt (2531)";110
+175;"licentiaat in de rechten (2532)";111
+176;"heer van Bavikhove en Landergem vanaf1463(2544)";119
+177;"heer van Ruddervoorde (2546)";122
+178;"heer van Moorsele, Vollander";45
+179;"en Wevelgem (2551)";45
+180;;45
+181;"heer van Melissant en Gapinge (2555)";5
+182;"(door erfenis van zijn vader)";5
+183;"heer van Voormezele (2559)";6
+184;"maistre (2572)";64
+185;"licentiaat in de rechten (2571)";67
+186;"seigneur du Bois v1425 (2588) [=?]";14
+187;"ridder en heer van Baasrode v1414 (2655)";66
+188;"raadsheer v1486 (2686)";21
+189;"ridder vanaf 1475 [?] (2693)";68
+190;"doctor";83
+191;"raadsheer en kamerling v1419 (2868)";108
+192;"chevalier et chambellan v1438 (2871)";39
+193;"heer van Axel en Wasquehal v1438 (2871) [=?]";39
+194;"schildknaap v1445 (2875) [archief]";86
+195;"escuier d'escuirie v1452 (2878)";49
+196;"in 1409 geen meestertitel, 1413 wel (4043)";57
+197;;182
+198;"Roeland Alards, heer van Diksmuide v1454 (2941)";27
+199;"heer van Axel en Wasquel v1453 (2956)";39
+200;"heer van Halinnes en van Rodes v1460 (2960)";23
+201;"ridder, raadsheer en kamerling v1460 (2960)";23
+202;"licencié es lois (3101)";142
+203;"conseillier genoemd vanaf 1423 (3144) [?]";149
+204;"heer van Erquinghem-le-Sec (3170)";23
+205;"heer van Wasnes, Pré en Moulin (6441)";130
+206;"heer van La Quièze (3180)";157
+207;"heer van Eertbruggen en Schellebelle v 1466(3184)";90
+208;"heer van La Cessoye (3186)";160
+209;"heer van Hallebast en Brouck (3217)";174
+210;"maistre [de kan.] v1420 (3229)";180
+211;"licencié es loys v1398 (3231)";180
+212;"maistre es arts en docteur es loix v1423 (3233)";180
+213;"heer van Watten (3234)";3
+214;"meester in aerten v1433 (3251)";2
+215;;7
+216;"heer van Watervliet te Handzame (3263)";8
+217;"heer van Baasrode (6504)";31
+218;"meester (3306)";34
+219;"in utroque jure licentiato v1432 (3318)";36
+220;"venerabilis et scientificus vir magister FdG(3318)";36
+221;"licencié ez loys (7803)";37
+222;"raadsheer van hertog en koning (3350)";37
+223;"mer (3359)";38
+224;"hij was nog geen heer van B en O in 1436 (3359)";38
+225;"schildknaap [?] (3367)";42
+226;"ridder (3368)";44
+227;"heer van Melssene [?] (3368)";44
+228;"nog geen heer in 1388: vader leeft nog (3400)";62
+229;;68
+230;"nobilis et potens dominus (3417)";84
+231;"raadsheer genoemd vanaf 1431 (3422)";88
+232;"meester (3426), sinds zijn benoeming in RK (7422)";91
+233;"ridder v1494 (3447)";111
+234;"heer van Landergem, te Walle, Hazoten in Eversbeek";119
+235;"heer van Landergem en Eversbeke (3458)";118
+236;;119
+237;"Beauvoir in Wavrin (3470)";119
+238;"ridder [volgens Foppens] (3473)";121
+239;"messire v1440-41 (1587): vanaf presidentschap";121
+240;"ridder [volgens Foppens] (3477)";123
+241;"heer van Gramez en Beselare (1565)";123
+242;"heere van Campene [?] (3481)";123
+243;"raadsheer v1423 (3485)";125
+244;"meester v1466 (3795)";83
+245;"raadsheer v1425 (3490)";89
+246;"raadsheer en kamerling (617)";159
+247;"licentiaat in de rechten  v1411(3515)";93
+248;"heer van Esteuvelles (3525) [visie Leuridan]";32
+249;"ridder (3528)";47
+250;"heer van het leenhof van Zedelgem (3528)";47
+251;"raadsheer en kamerling (3528)";47
+252;"heer van Landegem v1441 (3531)";49
+253;;126
+254;;126
+255;"Wasières";126
+256;"schildknaap v1437 (3565)";127
+257;"heer van Dudzele en Straten (3579)";190
+258;"zijn vader heer van La Verre? (5958)";22
+259;;10
+260;"maistre v1472 (350)";101
+261;;161
+262;"meester v1474 (3824)";44
+263;"heer van Volander (3861)";45
+264;"heer van Zonnebeke v1448 (3870)";43
+265;"heer van der Gracht v1476 (3875)";45
+266;"heer van Vertbois? v1450 (3882)";63
+267;"heer van Oosthove v1472 (3886)";63
+268;"heer van der Gracht, Moorsele, Wevelgem";45
+269;"en Beerlegem v1472 (3887)";45
+270;"schildknaap v1440 (4217)";49
+271;"""her"" Jan Camphinne (3972)";20
+272;"meester Heulaert v1406 (4007)";180
+273;"geen meester als pensionaris! (4052)";125
+274;;108
+276;"maistre v1480  (4753)";174
+277;;76
+278;"heer van Moerbeke v1473 (7261)";96
+279;"ridder, heer van Dranouter v1456 (6293)";96
+280;"heer van Oudenaarde en baron van Pamele (6463)";9
+281;"beer van Vlaanderen (4289)";9
+282;"schildknaap v1454 (4298)";44
+283;"heer van Westouter v1454 (4298)";44
+284;"doctor in beide rechten (4315)";44
+285;"meester in de artes (7379)";67
+286;;111
+287;"schildknaap (4415)";135
+288;"maistre volgens Vandenpeereboom (4434)[klopt niet]";23
+289;"Magister in artes v1414 (4549)";71
+290;"Baccalaureus in legibus v1414 (4549)";71
+291;;24
+292;"jonkheer v1446 (4569) =? of een zoon?";38
+293;"professeur de droit canon v1403 (4659)";126
+294;"ridder";126
+356;"Burggraaf van Diksmuide";27
+357;;27
+358;"heer van Croisilles en Waincourt";188
+359;"raadsheer en kamerling (5893)";188
+360;"kamerling v1432 (8052)";115
+361;;22
+362;"meester (6025)";183
+363;"meester v1452 (6045)";89
+364;"meester v1476 (6080)";48
+365;"raadsheer en kamerling v1446-49 (6313)";38
+366;"= schildknaap ca. 1428-33 (6324)";102
+367;;15
+368;"maistre v1429-30 (7196)";121
+369;"honnourable et saige maistre [als stadspensionaris";30
+370;"van Ieper v 1428 in een Doornikse bron]";30
+371;;130
+372;"heer van Tourcoing v1458 (6463)";9
+373;"heer van Marcke en Ronne ( (2564)";9
+374;"voogd van Ename (2564)";9
+375;"heer van Ten Ackere (6304)";16
+376;"nobilis vir (5774) [=?]";20
+377;;31
+378;"seigneur de la Chapelle [betrouwbaar?] (6603)";66
+379;"heer van Schoondijke (6601)";66
+380;;179
+381;"heer van Vertain  (6674)!]";157
+382;"heer van dele Quièse (6674)";157
+383;"écuyer (6674) [? niet in een archiefbron]";157
+384;"heer van Longues-Marlières in Dottignies (6675)";86
+385;"mr. v1467 (4326)";92
+386;"doctor in beide rechten";34
+387;"schildknaap v1389 (6483)";20
+388;"""chambellan"" sinds regering FdS (3400)";62
+389;"heer van Koolskamp, Ardooie,  Assebroek, Zwevezele";62
+390;"raadsheer en kamerling v1442 (6948)";190
+391;"""dit Bavendamme""[=?] (3321)";35
+392;"raadsheer en kamerling v1457 (7111)";45
+393;"heer van Assche te Deerlijk, Aalbeke v1417, van";57
+394;"Haverye te Ertvelde en Kluizen v1428 (6954)";57
+395;"maistre v1447-48 (7147)";81
+396;"meester vanaf 1440-41, voordien niet (7226)";133
+397;"joncheer, heer van Asselt (7259)";109
+398;"mer v1449 (7452)";127
+399;"ridder volgens Fris (7453) [onwaarschijnlijk]";183
+400;"""mer"" volgens Schoups (7013)";183
+401;"bijgenaamd Doulcet (532)";144
+402;"licentiaat in de decretalen (3350)";37
+403;"maistre";78
+404;"raadsheer v1426 (8050)";115
+405;"heer van Herzeaux te Wambrechies (6836)";165
+406;"heer van Lorimez in Wervik (6617)";69
+407;;173

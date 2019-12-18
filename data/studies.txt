@@ -1,0 +1,11 @@
+"Id";"afk";"voluit"
+1;"LB";"Licenciaat civiel recht"
+2;"LC";"Licenciaat canoniek recht"
+3;"LBR";"Licenciaat in beide rechten"
+4;"DB";
+5;"DC";
+6;"DBR";
+7;"MR";"Meestertitel"
+8;"F";"Financieel specialist"
+9;"P";"Specialist praktijk-gewoonterecht"
+10;"K";"Kanselarij ervaring"

@@ -1,0 +1,33 @@
+# extends "page.html"
+
+# block menu_top
+<ul class="nav-primary nav navbar-nav">
+  <li class="active"><a href="../personen.html"><span>Personen</span></a></li>
+  <li><a href="../referenties.html"><span>Referenties</span></a></li>
+</ul>
+# endblock
+
+# block page_content
+<h1>{{ persoon['label'] }}</h1>
+
+
+# set keys = [ ['sociaal','Sociaal'], ['carrière','Carrière'], ['bezit','Bezit'],['cultureel','Cultureel'] ]
+# for item in keys
+  # if persoon[item[0]]
+    <h2>{{ item[1] }}</h2>
+    {{ persoon[item[0]]|safe }}
+  # endif
+# endfor
+
+<h2>Referenties</h2>
+
+<ul>
+# for item in persoon['referenties']
+  <li>
+    <a name="{{ item['id'] }}"></a>
+    ({{ item['id'] }}) {{ item['fullref'] }}
+  </li>
+# endfor
+</ul>
+
+# endblock

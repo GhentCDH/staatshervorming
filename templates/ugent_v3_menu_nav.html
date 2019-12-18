@@ -1,0 +1,22 @@
+                    {arrayLength(actionMainMenu)}
+                            <ul class="menu" flexy:if="!isEmpty(lastReturn)">
+                                {foreach:actionMainMenu,tmpKey,tmpItem}
+                                        <li flexy:if="!tmpItem[2]"><a href="{tmpItem[1]}"><span>{tmpItem[0]}</span></a></li>
+                                        <li flexy:if="tmpItem[2]" class="open active"><a href="{tmpItem[1]}"><span>{tmpItem[0]}</span></a>
+
+                                        {arrayLength(actionNavigationMenu)}
+                                            <ul flexy:if="!isEmpty(lastReturn)">
+                                                 {foreach:actionNavigationMenu,tmpIndex,tmpSubItem}
+                                                     {if:tmpSubItem[3]}
+                                                            <li><a target="_blank" href="{tmpSubItem[1]}"><span>{tmpSubItem[0]}</span></a></li>
+                                                     {else:}
+                                                            <li flexy:if="tmpSubItem[2]" id="active"><a href="{tmpSubItem[1]}"><span>{tmpSubItem[0]}</span></a></li>
+                                                            <li flexy:if="!tmpSubItem[2]"><a href="{tmpSubItem[1]}"><span>{tmpSubItem[0]}</span></a></li>
+                                                     {end:}
+                                                 {end:}
+                                            </ul>
+                                        
+                                        </li>
+                                {end:}
+                            </ul>
+               

@@ -1,0 +1,13 @@
+<ul class="nav-tertiary nav navbar-nav navbar-right">
+    <li id="login-change" flexy:if="auth_is_superuser">
+        <form name="loginchange" id="loginchange" method="post" action="{auth_url_updateuid:h}">
+            <div class="form-group">
+                <input placeholder="aanmelden als ..."
+                       id="newuid" name="newuid" type="text" size="20" maxlength="50" class="form-control input-sm"  data-lpignore="true" style="font-size: 14px; padding: 2px 10px; margin-top: 6px; border: 0; height: 24px"/>
+            </div>
+        </form>
+    </li>
+    <li class="Logintext" flexy:if="!auth_is_authenticated" ><a href="{auth_url_login}">Aanmelden</a></li>
+    <li class="member" flexy:if="auth_is_authenticated" ><a>{auth_uid}</a></li>
+    <li flexy:if="auth_is_authenticated" ><a href="{auth_url_logout}">Afmelden</a></li>
+</ul>

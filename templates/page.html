@@ -1,0 +1,147 @@
+# extends "base.html"
+
+# block body
+<div class="fluid-container">
+    <div class="row">
+        <header class="pageheader col-xs-12 ">
+            <nav class="navbar navbar-default">
+                <div class="row">
+                    <div class="navbar-header col-xs-12 col-sm-2">
+                        <div class="page-logo">
+                            <a href="https://www.ugent.be" class="link">
+                                <img src="{{ template_base_url }}/static/images/logo_ugent_nl.svg" alt="Universiteit Gent">
+                            </a>
+                        </div>
+                        <a href="#" class="toggle-search">
+                            <i class="glyphicon glyphicon-search"></i>
+                            <span>ZOEK</span>
+                        </a>
+                        <a href="#" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" role="button">
+                            <span class="">MENU</span>
+                            <div class="block">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse col-sm-10" role="navigation">
+                        <div class="row search">
+                            <div class="col-xs-12 col-sm-6 search-container clearfix pull-right">
+                                # block search
+                                # endblock
+                            </div>
+                        </div>
+                        <div class="row menu">
+                            <div class="col-xs-12">
+                                <div class="bg-primary spacer">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                          # block menu_languageswitch
+                                          # endblock
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row menu">
+                            <div class="col-xs-12">
+                              # block menu_top
+                              # endblock
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 branding-container small">
+                    <h1 class="small">{{ site_title }}</h1>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+
+<div class="fluid-container">
+
+    <div class="breadcrumb">
+        # block breadcrumbs
+        # endblock
+	  </div>
+
+    <div class="row">
+
+        # block content
+
+          # if enable_page_navigation
+            # block page_navigation
+            <aside class="col-sm-3 inpage-nav-container xs-hide">
+               <div id="nav-anchor"></div>
+               <nav role="navigation" data-lockfixed="true" class="padding-default bg-tertiary">
+                   <h2>Inhoudstafel</h2>
+                   <div id="toc"></div>
+               </nav>
+            </aside>
+            # endblock
+          # endif
+
+          <div id="content-core" class="content-area">
+            <a id="main-content"></a>
+            <section class="col-sm-9 pull-right pbottom-large">
+                # block page_content
+                # endblock
+            </section>
+          </div>
+
+        # endblock
+
+    </div>
+</div>
+
+<footer class="page-footer fluid-container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="bg-primary padding-20">
+                <div class="mbottom-small border-bottom">
+                    <div class="row flexbox">
+                        <div class="col-xs-12 col-ms-6 col-md-3 pbottom-small hidden">
+                          # block block_footer1
+                          # endblock
+                        </div>
+                        <div class="col-xs-12 col-ms-6 col-md-3 pbottom-small hidden">
+                          # block block_footer2
+                          # endblock
+                        </div>
+                        <div class="col-xs-12 col-ms-6 col-md-3 pbottom-small hidden">
+                          # block block_footer3
+                          # endblock
+                        </div>
+                        <div class="col-xs-12 col-ms-6 col-md-3 pbottom-small hidden">
+                          # block block_footer4
+                          # endblock
+                        </div>
+                        <div class="col-xs-12 pbottom-small branding-container">
+                        # if site_faculty_code is defined
+                        <h2>
+                            <a href="{{ site_faculty_url }}"><img class="svg" src="{{ template_base_url }}/static/images/logo_{{ site_faculty_code }}_{{ site_lang }}.svg" alt="faculteitslogo"></a>
+                        </h2>
+                        # endif
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="socialbanner" class="container-share col-xs-12 col-sm-4  ">
+                      # block social
+                      # endblock
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                      # block footer_actions
+                      # endblock
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+# endblock

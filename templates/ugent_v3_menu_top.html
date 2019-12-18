@@ -1,0 +1,11 @@
+# if menu_top is defined
+  <ul class="nav-primary nav navbar-nav">
+   # for item in menu_top
+    # if item.active
+      <li class="open active"><a href="{{ item.href }}"><span>{{ item.title }}</span></a></li>
+    # else
+      <li><a href="{{ item.href }}"><span>{{ item.title }}</span></a></li>
+    # endif
+  # endfor
+  </ul>
+# endif
