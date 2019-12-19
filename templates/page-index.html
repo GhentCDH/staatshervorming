@@ -3,11 +3,37 @@
 # block page_content
 <h1>Index</h1>
 
-<ul>
+<table class="table datatable table-condensed table-striped table-bordered table-hover">
+  <thead>
+      <tr>
+          <th></th>
+          <th>Voornaam</th>
+          <th>Familienaam</th>
+      </tr>
+  </thead>
+  <tbody>
   # for id,persoon in personen.items()
-  <li>
-    <a href="persoon/{{ persoon['id'] }}.html">{{ persoon['label'] }}</a></li>
+    <tr>
+      <td>
+        <a href="persoon/{{ persoon['id'] }}.html">info</a></li>
+      </td>
+      <td>
+        {{ persoon['voornaam'] }}
+      </td>
+      <td>
+        {{ persoon['familienaam'] }}
+      </td>
+    </tr>
   # endfor
-</ul>
+  <tbody>
+</table>
+# endblock
 
+# block css
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+# endblock
+
+# block js_footer
+{{ super() }}
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
 # endblock

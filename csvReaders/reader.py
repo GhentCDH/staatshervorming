@@ -5,7 +5,7 @@ import data
 from .exceptions import InvalidRowException
 from .exceptions import InvalidItemException
 
-NULLABLE = ['', ' ', '?', 'n/a', '/']
+NULLABLE = ['', ' ', '?', 'n/a', '/', '0']
 
 class Reader:
 

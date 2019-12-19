@@ -7,9 +7,50 @@
 </ul>
 # endblock
 
+# block nav_left_header
+<div class="padding-default bg-tertiary">
+  <h2>{{ persoon['label'] }}</h2>
+
+  # if persoon['kwantificeerbaar']
+  # set keys = [
+    ['carrière_begin','Begin carrière'],
+    ['carrière_einde','Einde carrière'],
+    ['functie','Functie RVV RK'],
+    ['functie_andere','Andere functies'],
+    ['origine', 'Afkomst' ],
+    ['sociaal', 'Sociaal' ],
+    ['leek_clericus', 'Leek/Clericus' ],
+    ['studies', 'Studies' ],
+    ['verwant', 'Verwant' ],
+    ['nepotisme', 'Nepotisme' ],
+  ]
+
+  <div class="block-kwantificeerbaar">
+    <dl>
+      # for item in keys
+        # set key = item[0]
+        # if key in persoon['kwantificeerbaar'] and persoon['kwantificeerbaar'][key]
+          <dt>{{ item[1] }}</dt>
+          <dd>{{ persoon['kwantificeerbaar'][key] }}</dd>
+        # endif
+      # endfor
+    </dl>
+  </div>
+  # endif
+
+  # if persoon['titels']
+    <h3>Titels</h3>
+    <ul>
+    # for titel in persoon['titels']
+      <li>{{ titel['label']|safe }}</li>
+    # endfor
+    </ul>
+  # endif
+</div>
+# endblock
+
 # block page_content
 <h1>{{ persoon['label'] }}</h1>
-
 
 # set keys = [ ['sociaal','Sociaal'], ['carrière','Carrière'], ['bezit','Bezit'],['cultureel','Cultureel'] ]
 # for item in keys

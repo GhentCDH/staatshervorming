@@ -72,29 +72,34 @@
 
     <div class="row">
 
-        # block content
+        # if show_nav_left
+          <aside class="col-sm-3 inpage-nav-container ">
 
-          # if enable_page_navigation
-            # block page_navigation
-            <aside class="col-sm-3 inpage-nav-container xs-hide">
-               <div id="nav-anchor"></div>
-               <nav role="navigation" data-lockfixed="true" class="padding-default bg-tertiary">
-                   <h2>Inhoudstafel</h2>
-                   <div id="toc"></div>
-               </nav>
-            </aside>
+            # block nav_left_header
             # endblock
-          # endif
+
+             # if show_page_navigation
+             <div id="nav-anchor"></div>
+             <nav role="navigation" data-lockfixed="true" class="padding-default bg-tertiary xs-hide">
+                <h2>Inhoudstafel</h2>
+                <div id="toc"></div>
+             </nav>
+             # endif
+
+             # block nav_left_footer
+             # endblock
+
+          </aside>
 
           <div id="content-core" class="content-area">
             <a id="main-content"></a>
-            <section class="col-sm-9 pull-right pbottom-large">
+            <section class="col-sm-9 pbottom-large">
                 # block page_content
                 # endblock
             </section>
           </div>
 
-        # endblock
+        # endif
 
     </div>
 </div>

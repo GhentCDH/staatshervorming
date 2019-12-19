@@ -1,0 +1,13 @@
+.block-kwantificeerbaar dt {
+  float: left;
+  clear: left;
+  width: 7em;
+  font-weight: normal;
+}
+
+.block-kwantificeerbaar dt::after {
+  content: ': '
+}
+
+.block-kwantificeerbaar dd {
+}

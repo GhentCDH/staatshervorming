@@ -40,10 +40,18 @@ def generate_personen():
             ## convert markdown to html
             persoon[key] = markdown2.markdown(persoon[key])
 
+        if 'titels' in persoon:
+            for titel in persoon['titels']:
+                titel['label'] = markdown2.markdown(re.sub("\(([0-9]{1,4})\)",r"<sup>([\1](#\1))</sup>", titel['label']))
+
         template_options = {
             'persoon': persoon,
             'template_base_url': 'https://cdn.jsdelivr.net/gh/ugent-lw/huisstijl2016@2',
-            'enable_page_navigation': 1
+            'show_nav_left': 1,
+            'show_page_navigation': 1,
+            'css': [
+                '../css/style.css'
+            ]
         }
         html = template.render(template_options)
 
@@ -56,7 +64,13 @@ def generate_index():
 
     template_options = {
         'personen': data.personen,
-        'template_base_url': 'https://cdn.jsdelivr.net/gh/ugent-lw/huisstijl2016@2'
+        'template_base_url': 'https://cdn.jsdelivr.net/gh/ugent-lw/huisstijl2016@2',
+        'css': [
+            'css/style.css'
+        ],
+        'js_footer': [
+            'js/default.js'
+        ]
     }
     html = template.render(template_options)
 

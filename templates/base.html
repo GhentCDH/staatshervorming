@@ -30,13 +30,26 @@
     @import url("{{ template_base_url }}/static/css/screen.css");
     </style>
 
-		# block js_head
+		# for url in css
+			<link rel="stylesheet" href="{{ url }}">
+		# endfor
+
+		# block css
+		# endblock
+
 		<script>
 				document.createElement("picture")
 		</script>
+
 		<script src="{{ template_base_url }}/static/js/vendor/modernizr-custom.min.js" async=""></script>
 		<script src="{{ template_base_url }}/static/js/vendor/jquery.min.js"></script>
+
+		# block js_head
 		# endblock
+
+		# for url in js_head
+			<script type="text/javascript" src="{{ url }}"></script>
+		# endfor
 
 		# block head
 		# endblock
@@ -47,7 +60,6 @@
 		# block body
 		# endblock
 
-		# block js_footer
 		<script type="text/javascript" src="{{ template_base_url }}/static/js/vendor/jquery-migrate.min.js"></script>
 		<script type="text/javascript" src="{{ template_base_url }}/static/js/vendor/moment.min.js"></script>
 		<script type="text/javascript" src="{{ template_base_url }}/static/js/vendor/bootstrap.min.js"></script>
@@ -57,7 +69,13 @@
 		<script type="text/javascript" src="{{ template_base_url }}/static/js/vendor/smooth-scroll.min.js"></script>
 		<script type="text/javascript" src="{{ template_base_url }}/static/js/vendor/tocbot.min.js"></script>
 		<script type="text/javascript" src="{{ template_base_url }}/js/main.min.js"></script>
+
+		# block js_footer
 		# endblock
+
+		# for url in js_footer
+			<script type="text/javascript" src="{{ url }}"></script>
+		# endfor
 
 </body>
 </html>

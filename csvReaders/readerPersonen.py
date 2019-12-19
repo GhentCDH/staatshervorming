@@ -28,6 +28,9 @@ class ReaderPersonen(Reader):
 
     def enrichItem(self, item, data):
 
+        id = item['id']
+
         item['label'] = item['voornaam'] + ' ' + item['familienaam'];
-        item['titels'] = [ v for (k,v) in data.titels.items() if v['persoon_id'] == item['id'] ];
-        item['referenties'] = [ v for (k,v) in data.referenties.items() if v['persoon_id'] == item['id'] ];
+        item['titels'] = [ v for (k,v) in data.titels.items() if v['persoon_id'] == id ];
+        item['referenties'] = [ v for (k,v) in data.referenties.items() if v['persoon_id'] == id ];
+        item['kwantificeerbaar'] = data.kwantificeerbaar[id] if id in data.kwantificeerbaar else None
