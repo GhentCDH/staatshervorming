@@ -9,13 +9,15 @@
           <th></th>
           <th>Voornaam</th>
           <th>Familienaam</th>
+          <th>Begin carrière</th>
+          <th>Einde carrière</th>
       </tr>
   </thead>
   <tbody>
   # for id,persoon in personen.items()
     <tr>
       <td>
-        <a href="persoon/{{ persoon['id'] }}.html">info</a></li>
+        <a href="persoon/{{ persoon['slug'] }}.html">info</a></li>
       </td>
       <td>
         {{ persoon['voornaam'] }}
@@ -23,17 +25,18 @@
       <td>
         {{ persoon['familienaam'] }}
       </td>
+      <td>
+        # if persoon['kwantificeerbaar']
+        {{ persoon['kwantificeerbaar']['carrière_begin'] }}
+        # endif
+      </td>
+      <td>
+        # if persoon['kwantificeerbaar']
+        {{ persoon['kwantificeerbaar']['carrière_einde'] }}
+        # endif
+      </td>
     </tr>
   # endfor
   <tbody>
 </table>
-# endblock
-
-# block css
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
-# endblock
-
-# block js_footer
-{{ super() }}
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
 # endblock

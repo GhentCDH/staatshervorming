@@ -1,4 +1,4 @@
-$(document).ready( function () {
+$( function () {
     $('.datatable').DataTable({
       'paging': false,
       'buttons': {
@@ -10,6 +10,8 @@ $(document).ready( function () {
       },
       'columns': [
         { 'searchable': false },
+        null,
+        null,
         null,
         null
       ]

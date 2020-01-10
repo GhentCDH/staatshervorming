@@ -2,7 +2,8 @@
 import data
 import markdown2
 import re
-
+import os
+import shutil
 from jinja2 import Environment, PackageLoader, select_autoescape
 
 env = Environment(
@@ -56,19 +57,23 @@ def generate_personen():
         html = template.render(template_options)
 
         # to save the results
-        with open("output/persoon/" + id + ".html", "w") as fh:
+        with open("output/persoon/" + persoon['slug'] + ".html", "w") as fh:
             fh.write(html)
 
 def generate_index():
+
     template = env.get_template('page-index.html')
 
     template_options = {
         'personen': data.personen,
         'template_base_url': 'https://cdn.jsdelivr.net/gh/ugent-lw/huisstijl2016@2',
         'css': [
+            'https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css',
             'css/style.css'
+
         ],
         'js_footer': [
+            'https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js',
             'js/default.js'
         ]
     }
@@ -77,6 +82,19 @@ def generate_index():
     # to save the results
     with open("output/personen.html", "w") as fh:
         fh.write(html)
+
+def create_paths():
+
+    if not os.path.exists('output'):
+        os.mkdir('output')
+
+    if os.path.exists('output/persoon'):
+        shutil.rmtree('output/persoon')
+
+    os.mkdir('output/persoon')
+
+
+create_paths()
 
 generate_index()
 generate_personen()

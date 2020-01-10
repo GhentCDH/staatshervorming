@@ -1,5 +1,6 @@
 from .reader import Reader
 from .exceptions import InvalidRowException
+from slugify import slugify
 
 class ReaderPersonen(Reader):
 
@@ -34,3 +35,4 @@ class ReaderPersonen(Reader):
         item['titels'] = [ v for (k,v) in data.titels.items() if v['persoon_id'] == id ];
         item['referenties'] = [ v for (k,v) in data.referenties.items() if v['persoon_id'] == id ];
         item['kwantificeerbaar'] = data.kwantificeerbaar[id] if id in data.kwantificeerbaar else None
+        item['slug'] = slugify(item['label'])
