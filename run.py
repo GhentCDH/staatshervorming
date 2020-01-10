@@ -52,13 +52,39 @@ def generate_personen():
             'show_page_navigation': 1,
             'css': [
                 '../css/style.css'
-            ]
+            ],
+            'site_title': 'Staatshervorming en vorstelijke ambetnaren in het graafschap Vlaanderen (1419-1477)',
+            'site_url': 'https://www.bourgondische-ambetnaren.ugent.be'
         }
         html = template.render(template_options)
 
         # to save the results
         with open("output/persoon/" + persoon['slug'] + ".html", "w") as fh:
             fh.write(html)
+
+def generate_personen_overzicht():
+
+    template = env.get_template('page-personen.html')
+
+    template_options = {
+        'personen': data.personen,
+        'template_base_url': 'https://cdn.jsdelivr.net/gh/ugent-lw/huisstijl2016@2',
+        'css': [
+            'https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css',
+            'css/style.css'
+        ],
+        'js_footer': [
+            'https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js',
+            'js/default.js'
+        ],
+        'site_title': 'Staatshervorming en vorstelijke ambetnaren in het graafschap Vlaanderen (1419-1477)',
+        'site_url': 'https://www.bourgondische-ambetnaren.ugent.be'
+    }
+    html = template.render(template_options)
+
+    # to save the results
+    with open("output/personen.html", "w") as fh:
+        fh.write(html)
 
 def generate_index():
 
@@ -68,20 +94,17 @@ def generate_index():
         'personen': data.personen,
         'template_base_url': 'https://cdn.jsdelivr.net/gh/ugent-lw/huisstijl2016@2',
         'css': [
-            'https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css',
             'css/style.css'
-
         ],
-        'js_footer': [
-            'https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js',
-            'js/default.js'
-        ]
+        'site_title': 'Staatshervorming en vorstelijke ambetnaren in het graafschap Vlaanderen (1419-1477)',
+        'site_url': 'https://www.bourgondische-ambetnaren.ugent.be'
     }
     html = template.render(template_options)
 
     # to save the results
-    with open("output/personen.html", "w") as fh:
+    with open("output/index.html", "w") as fh:
         fh.write(html)
+
 
 def create_paths():
 
@@ -98,3 +121,4 @@ create_paths()
 
 generate_index()
 generate_personen()
+generate_personen_overzicht()

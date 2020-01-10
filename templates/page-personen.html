@@ -1,0 +1,48 @@
+# extends "page.html"
+
+# block menu_top
+<ul class="nav-primary nav navbar-nav">
+  <li class="active"><a href="personen.html"><span>Personen</span></a></li>
+</ul>
+# endblock
+
+# block page_content
+<h1>Personen</h1>
+
+<table class="table datatable table-condensed table-striped table-bordered table-hover">
+  <thead>
+      <tr>
+          <th></th>
+          <th>Voornaam</th>
+          <th>Familienaam</th>
+          <th>Begin carrière</th>
+          <th>Einde carrière</th>
+      </tr>
+  </thead>
+  <tbody>
+  # for id,persoon in personen.items()
+    <tr>
+      <td>
+        <a href="persoon/{{ persoon['slug'] }}.html">info</a></li>
+      </td>
+      <td>
+        {{ persoon['voornaam'] }}
+      </td>
+      <td>
+        {{ persoon['familienaam'] }}
+      </td>
+      <td>
+        # if persoon['kwantificeerbaar']
+        {{ persoon['kwantificeerbaar']['carrière_begin'] }}
+        # endif
+      </td>
+      <td>
+        # if persoon['kwantificeerbaar']
+        {{ persoon['kwantificeerbaar']['carrière_einde'] }}
+        # endif
+      </td>
+    </tr>
+  # endfor
+  <tbody>
+</table>
+# endblock
