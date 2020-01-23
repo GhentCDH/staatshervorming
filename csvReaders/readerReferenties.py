@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from .reader import Reader
 from .exceptions import InvalidRowException
 import re

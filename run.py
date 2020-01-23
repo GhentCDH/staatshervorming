@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import data
 import markdown2
 import re
@@ -54,7 +55,7 @@ def generate_personen():
                 '../css/style.css'
             ],
             'site_title': 'Staatshervorming en vorstelijke ambetnaren in het graafschap Vlaanderen (1419-1477)',
-            'site_url': 'https://www.bourgondische-ambetnaren.ugent.be'
+            'site_url': 'https://www.bourgondische-ambtenaren.ugent.be'
         }
         html = template.render(template_options)
 
@@ -78,26 +79,7 @@ def generate_personen_overzicht():
             'js/default.js'
         ],
         'site_title': 'Staatshervorming en vorstelijke ambetnaren in het graafschap Vlaanderen (1419-1477)',
-        'site_url': 'https://www.bourgondische-ambetnaren.ugent.be'
-    }
-    html = template.render(template_options)
-
-    # to save the results
-    with open("output/personen.html", "w") as fh:
-        fh.write(html)
-
-def generate_index():
-
-    template = env.get_template('page-index.html')
-
-    template_options = {
-        'personen': data.personen,
-        'template_base_url': 'https://cdn.jsdelivr.net/gh/ugent-lw/huisstijl2016@2',
-        'css': [
-            'css/style.css'
-        ],
-        'site_title': 'Staatshervorming en vorstelijke ambetnaren in het graafschap Vlaanderen (1419-1477)',
-        'site_url': 'https://www.bourgondische-ambetnaren.ugent.be'
+        'site_url': 'https://www.bourgondische-ambtenaren.ugent.be'
     }
     html = template.render(template_options)
 
@@ -119,6 +101,5 @@ def create_paths():
 
 create_paths()
 
-generate_index()
 generate_personen()
 generate_personen_overzicht()
