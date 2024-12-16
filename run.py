@@ -54,7 +54,7 @@ def generate_personen():
             'css': [
                 '../css/style.css'
             ],
-            'site_title': 'Staatshervorming en vorstelijke ambetnaren in het graafschap Vlaanderen (1419-1477)',
+            'site_title': 'Staatshervorming en vorstelijke ambtenaren in het graafschap Vlaanderen (1419-1477)',
             'site_url': 'https://www.bourgondische-ambtenaren.ugent.be'
         }
         html = template.render(template_options)
@@ -78,7 +78,7 @@ def generate_personen_overzicht():
             'https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js',
             'js/default.js'
         ],
-        'site_title': 'Staatshervorming en vorstelijke ambetnaren in het graafschap Vlaanderen (1419-1477)',
+        'site_title': 'Staatshervorming en vorstelijke ambtenaren in het graafschap Vlaanderen (1419-1477)',
         'site_url': 'https://www.bourgondische-ambtenaren.ugent.be'
     }
     html = template.render(template_options)
