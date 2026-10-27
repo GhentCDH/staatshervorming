@@ -1,0 +1,14 @@
+name: Publish
+
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  publish:
+    permissions:
+      contents: read
+      packages: write
+    uses: GhentCDH/.github/.github/workflows/ghcr-publish.yaml@v1
+    with:
+      image: ghentcdh/staatshervorming
